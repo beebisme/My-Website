@@ -28,91 +28,190 @@
     <title>My Web</title>
   </head>
   <body>
-    <div class="d-flex jumbotron">
-      <div class="d-flex flex-column justify-content-center container">
-        <h1 class="text-center">Hello!! I'm Muh Khoirurrohman H</h1>
-        <p class="lead text-center">
-          Student, Frontend Developer, UIUX Designer
-        </p>
-      </div>
-    </div>
-
-    <div id="About" class="px-4">
-      <h1 class="text-center mb-4">About Me</h1>
-      <div class="d-flex flex-row mx-auto container-about">
-        <img src="photo.jpg" alt="" class="photo mr-5" />
-        <p class="text-justify">
-          Halo, saya adalah seorang mahasiswa dari Universitas Muhammadiyah
-          Malang (UMM) yang berasal dari Nganjuk. Saat ini, saya tengah mengejar
-          gelar sarjana di Fakultas Teknik Informatika. Sejak lahir di Nganjuk,
-          saya telah menjalani perjalanan pendidikan yang mengarahkan saya ke
-          dunia teknologi informasi dan komputer. Sebagai seorang mahasiswa di
-          UMM, saya berkomitmen untuk terus mengembangkan pengetahuan dan
-          keterampilan saya dalam bidang teknik informatika, serta berharap
-          dapat memberikan kontribusi positif dalam perkembangan teknologi di
-          masa depan.
-        </p>
-      </div>
-    </div>
-
-    <div class="Contact mt-5 py-5">
-      <h1 class="text-center mb-4">My Contact</h1>
-      <div class="d-flex flex-row justify-content-center">
-        <a
-          href=" https://wa.me/083852169878"
-          class="btn btn-success mx-2 px-4 py-2"
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <i class="fa-brands fa-whatsapp mr-2"></i>Whatsapp
-        </a>
-        <a
-          href="https://www.instagram.com/beebisme/"
-          class="btn btn-danger mx-2 px-4 py-2"
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
         >
-          <i class="fa-brands fa-instagram mr-2"></i>Instagram
-        </a>
-      </div>
-    </div>
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#sectionAbout">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#sectionContact">Contact</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#sectionHobby">Hobby</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#sectionSkill">Skill</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <div class="Hobby mt-2 py-5">
-      <h1 class="text-center mb-5">My Hobby</h1>
-      <div class="d-flex justify-content-center">
-        <img
-          src="Best-Sleeping-Positions-.jpg"
-          alt=""
-          class="img-hobby mt-2 mx-auto"
-        />
+    <main>
+      <div class="d-flex jumbotron mb-5">
+        <div class="d-flex flex-column justify-content-center container">
+          <h1 class="text-center">Hello!! I'm Muh Khoirurrohman H</h1>
+          <p class="lead text-center">
+            Student, Frontend Developer, UIUX Designer
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="Skill mt-3 py-5">
-      <h1 class="text-center mb-5">My Skill</h1>
-      <div class="d-flex flex-row justify-content-center">
-        <div class="card mx-2" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fa-solid fa-pen-nib"></i> UIUX Design
-            </h5>
-            <p class="card-text">
-              Saya bisa membuat desain aplikasi android dan juga web
+      <section id="sectionAbout">
+        <div id="About" class="px-4">
+          <h1 class="text-center mb-4">About Me</h1>
+          <div class="d-flex flex-row mx-auto container-about">
+            <img src="photo.jpg" alt="" class="photo mr-5" />
+            <p class="text-justify">
+              Halo, saya adalah seorang mahasiswa dari Universitas Muhammadiyah
+              Malang (UMM) yang berasal dari Nganjuk. Saat ini, saya tengah
+              mengejar gelar sarjana di Fakultas Teknik Informatika. Sejak lahir
+              di Nganjuk, saya telah menjalani perjalanan pendidikan yang
+              mengarahkan saya ke dunia teknologi informasi dan komputer.
+              Sebagai seorang mahasiswa di UMM, saya berkomitmen untuk terus
+              mengembangkan pengetahuan dan keterampilan saya dalam bidang
+              teknik informatika, serta berharap dapat memberikan kontribusi
+              positif dalam perkembangan teknologi di masa depan.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="sectionContact">
+        <div class="Contact mt-5 py-5">
+          <h1 class="text-center mb-4">My Contact</h1>
+          <div class="d-flex flex-row justify-content-center">
             <a
-              href="https://dribbble.com/shots/19470993-UrShoes-Shoes-E-Commerce-App?utm_source=Clipboard_Shot&utm_campaign=hdesignid&utm_content=UrShoes.%20-%20Shoes%20E-Commerce%20App&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=hdesignid&utm_content=UrShoes.%20-%20Shoes%20E-Commerce%20App&utm_medium=Social_Share"
-              >My Work</a
+              href=" https://wa.me/083852169878"
+              class="btn btn-success mx-2 px-4 py-2"
             >
+              <i class="fa-brands fa-whatsapp mr-2"></i>Whatsapp
+            </a>
+            <a
+              href="https://www.instagram.com/beebisme/"
+              class="btn btn-danger mx-2 px-4 py-2"
+            >
+              <i class="fa-brands fa-instagram mr-2"></i>Instagram
+            </a>
           </div>
         </div>
+      </section>
 
-        <div class="card mx-2" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fa-solid fa-code"></i> Frontend Development
-            </h5>
-            <p class="card-text">
-              Saya bisa membuat frontend untuk web dan juga android (pemula)
-            </p>
+      <section id="sectionHobby">
+        <div class="Hobby mt-2 py-5">
+          <h1 class="text-center mb-5">My Hobby</h1>
+          <div class="d-flex justify-content-center">
+            <img
+              src="Best-Sleeping-Positions-.jpg"
+              alt=""
+              class="img-hobby mt-2 mx-auto"
+            />
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+
+      <section id="sectionSkill">
+        <div class="Skill mt-3 py-5">
+          <h1 class="text-center mb-5">My Skill</h1>
+          <div class="d-flex flex-row justify-content-center">
+            <div class="card mx-2" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fa-solid fa-pen-nib"></i> UIUX Design
+                </h5>
+                <p class="card-text">
+                  Saya bisa membuat desain aplikasi android dan juga web
+                </p>
+                <a
+                  href="https://dribbble.com/shots/19470993-UrShoes-Shoes-E-Commerce-App?utm_source=Clipboard_Shot&utm_campaign=hdesignid&utm_content=UrShoes.%20-%20Shoes%20E-Commerce%20App&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=hdesignid&utm_content=UrShoes.%20-%20Shoes%20E-Commerce%20App&utm_medium=Social_Share"
+                  >My Work</a
+                >
+              </div>
+            </div>
+
+            <div class="card mx-2 rounded-lg" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fa-solid fa-code"></i> Frontend Development
+                </h5>
+                <p class="card-text">
+                  Saya bisa membuat frontend untuk web dan juga android (pemula)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <button id="scrollToTopBtn" title="Kembali ke Atas">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </main>
+
+    <script>
+      // Tambahkan ini ke dalam JavaScript Anda
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+      // Tampilkan tombol saat pengguna bergulir ke bawah
+      window.addEventListener("scroll", () => {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          scrollToTopBtn.style.display = "block";
+        } else {
+          scrollToTopBtn.style.display = "none";
+        }
+      });
+
+      // Fungsi untuk menggulir ke bagian atas saat tombol diklik
+      scrollToTopBtn.addEventListener("click", () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+
+      scrollToTopBtn.addEventListener("click", () => {
+        const scrollOptions = {
+          top: 0,
+          behavior: "smooth",
+        };
+        window.scrollTo(scrollOptions);
+      });
+    </script>
   </body>
 </html>

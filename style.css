@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .jumbotron {
   border-radius: 0;
   height: 100vh;
@@ -30,4 +34,41 @@
 
 .img-hobby {
   width: 600px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px; /* Lebar garis bawah */
+  background-color: #222; /* Warna garis bawah saat hover */
+  position: absolute;
+  bottom: -3px;
+  margin-bottom: 2px;
+  left: 0;
+  transition: width 0.3s ease; /* Efek transisi */
+}
+
+.nav-item:hover::after {
+  width: 100%; /* Lebar garis bawah saat hover */
+}
+
+#scrollToTopBtn {
+  display: none; /* Sembunyikan tombol secara default */
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: #222;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20%;
 }
