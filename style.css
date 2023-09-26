@@ -1,0 +1,33 @@
+.jumbotron {
+  border-radius: 0;
+  height: 100vh;
+  background-color: #acbabf;
+}
+
+.container-about {
+  width: 60vw;
+}
+
+.photo {
+  height: 300px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+
+.Contact,
+.Skill {
+  background-color: #acbabf;
+}
+
+.instagram-icons {
+  width: 24px;
+  fill: aliceblue;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.img-hobby {
+  width: 600px;
+}
